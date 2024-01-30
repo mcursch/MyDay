@@ -4,11 +4,8 @@ import MainLayout from "~/layouts/MainLayout.vue";
 
 <template>
   <MainLayout>
-    <div class="text-4xl text-blue-500">
-      Page: foo
-    </div>
+    Hello
   </MainLayout>
-
 </template>
 
 <style scoped></style>
