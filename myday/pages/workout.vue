@@ -27,10 +27,10 @@ const workouts = [
 
           <div v-for="workout in workouts" class="my-2">
             <Disclosure>
-              <DisclosureButton class="py-2 bg-blue-200 rounded-lg w-60" >
+              <DisclosureButton class="py-2 bg-blue-200 rounded-lg w-full" >
                 Date and Kind
               </DisclosureButton>
-              <DisclosurePanel class="text-gray-500">
+              <DisclosurePanel class="text-gray-500 w-20 bg-black">
                 Workout Specifics
               </DisclosurePanel>
             </Disclosure>
