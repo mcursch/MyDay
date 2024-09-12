@@ -1,6 +1,7 @@
 import "./App.css";
 import WelcomeComponent from "./components/WelcomeComponent";
 import LandingComponent from "./components/LandingComponent";
+import Events from "./components/Events";
 import React, { useState } from "react";
 const isPacked = false;
 
@@ -13,12 +14,16 @@ function App(isPacked: boolean) {
   };
   return (
     <div
-      className={`container ${transitioned ? "transitioning" : ""}`}
+      className={`index-container ${transitioned ? "transitioning" : ""}`}
+
       onMouseEnter={handleMouseEnter}
     >
       <WelcomeComponent />
       <LandingComponent />
+
     </div>
+    
+    
   );
 }
 
